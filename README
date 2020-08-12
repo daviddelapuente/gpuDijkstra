@@ -1,0 +1,11 @@
+En este repositorio esta el .cpp y los kernels. 
+
+para hacerlo funcionar recomiendo abrir la solucion con el visual studio y agregar a las referencias del proyecto 
+para agregar las librerias de opneCl de tu acelerador de hardware y ademas debes agregar la referencia AOCLUtils 
+ubicada en ./common/src 
+
+al correr el programa puedes variar el argumento "mode" para correr los distintos modos del programa.
+
+mode=0: algoritmo de dijkstra en cpu tipico 
+mode=1: algoritmo de dijkstra en cpu agrega mas nodos a la frontera 
+mode=2: algoritmo de dijkstra en gpu agrega mas nodos a la frontera
